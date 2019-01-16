@@ -1,0 +1,52 @@
+{
+  "name": "kickstarter",
+  "version": "1.0.0",
+  "description": "A modern responsive WordPress starter theme",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaRiddle/Kickstarter.git"
+  },
+  "author": "Joshua Riddle",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/JoshuaRiddle/Kickstarter/issues"
+  },
+  "homepage": "https://github.com/JoshuaRiddle/Kickstarter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "autoprefixer": "^9.4.5",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-extname": "^0.2.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "rimraf": "^2.6.3",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.28.4",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^12.0.5"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "foundation-sites": "^6.5.1",
+    "jquery": "^3.3.1",
+    "motion-ui": "^2.0.3",
+    "what-input": "^5.1.3"
+  }
+}
